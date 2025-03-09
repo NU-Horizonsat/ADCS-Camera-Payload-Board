@@ -11,4 +11,7 @@
   (lib (name "MCP23009-E")(type "KiCad")(uri "${KIPRJMOD}/Components/MCP23009-E.kicad_sym")(options "")(descr ""))
   (lib (name "TPS22921")(type "KiCad")(uri "${KIPRJMOD}/Components/TPS22921.kicad_sym")(options "")(descr ""))
   (lib (name "CY15B064J-SXET")(type "KiCad")(uri "${KIPRJMOD}/Components/CY15B064J-SXET.kicad_sym")(options "")(descr ""))
+  (lib (name "93LC66BT-I_MC")(type "KiCad")(uri "${KIPRJMOD}/Components/93LC66BT-I_MC.kicad_sym")(options "")(descr ""))
+  (lib (name "830105420809")(type "KiCad")(uri "${KIPRJMOD}/Components/830105420809.kicad_sym")(options "")(descr ""))
+  (lib (name "TS53YJ203MR10")(type "KiCad")(uri "${KIPRJMOD}/Components/TS53YJ203MR10.kicad_sym")(options "")(descr ""))
 )

@@ -1,19 +1,415 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "dd9d031d-43a1-4442-b493-27451a14e0d9")
 	(paper "A5")
 	(title_block
-		(title "RT1050 DevBoard for Project Horizon")
-		(rev "v1")
+		(title "Payload Board for Pleiades Atlas")
+		(rev "v0.2")
 		(company "Northeastern University")
-		(comment 1 "Built by Madhav Kapa")
+		(comment 1 "Designed by Madhav Kapa")
 	)
-	(lib_symbols)
+	(lib_symbols
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 20.32 76.2) (xy 25.4 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1d5a345-7853-46b0-beae-9b2c9fe430ab")
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 25.4 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f81f97c-491f-414c-ac0a-a130761b2b8e")
+		(property "Reference" "#PWR0120"
+			(at 25.4 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 25.4 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 25.4 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32fe2d05-3958-49ac-b147-a54d28c5ebd0")
+		)
+		(instances
+			(project "RT1050"
+				(path "/dd9d031d-43a1-4442-b493-27451a14e0d9"
+					(reference "#PWR0120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 20.32 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "affff5f6-0a99-4105-beca-203aa3aca5ee")
+		(property "Reference" "#PWR0119"
+			(at 20.32 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 19.558 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 20.32 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d64b2d2-5c36-4f27-99f1-4187b03173f6")
+		)
+		(instances
+			(project "RT1050"
+				(path "/dd9d031d-43a1-4442-b493-27451a14e0d9"
+					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
-		(at 119.38 15.24)
-		(size 20.32 20.32)
+		(at 67.31 43.18)
+		(size 20.32 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -22,9 +418,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "1717ddd0-007d-45d1-b2d6-3a5f196579be")
-		(property "Sheetname" "CAN Bus"
-			(at 119.38 14.5284 0)
+		(uuid "2d649508-b8c0-4ade-a0f1-826b73087682")
+		(property "Sheetname" "Mag Drivers"
+			(at 67.31 42.4684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32,8 +428,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "can.kicad_sch"
-			(at 119.38 36.1446 0)
+		(property "Sheetfile" "mag_drivers.kicad_sch"
+			(at 67.31 62.8146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44,7 +440,7 @@
 		(instances
 			(project "RT1050"
 				(path "/dd9d031d-43a1-4442-b493-27451a14e0d9"
-					(page "10")
+					(page "9")
 				)
 			)
 		)
@@ -52,6 +448,10 @@
 	(sheet
 		(at 13.97 43.18)
 		(size 20.32 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -88,8 +488,54 @@
 		)
 	)
 	(sheet
+		(at 120.65 15.24)
+		(size 20.32 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4da10a7b-83e8-445d-b3df-2f56d3a319f5")
+		(property "Sheetname" "Watchdog"
+			(at 120.65 14.5284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "watchdog.kicad_sch"
+			(at 120.65 36.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RT1050"
+				(path "/dd9d031d-43a1-4442-b493-27451a14e0d9"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 93.98 15.24)
 		(size 20.32 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -126,8 +572,12 @@
 		)
 	)
 	(sheet
-		(at 119.38 43.18)
+		(at 93.98 43.18)
 		(size 20.32 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -138,7 +588,7 @@
 		)
 		(uuid "72e9a789-8fe7-413e-81ff-40ca14e4e7a2")
 		(property "Sheetname" "Connectors"
-			(at 119.38 42.4684 0)
+			(at 93.98 42.4684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -147,7 +597,7 @@
 			)
 		)
 		(property "Sheetfile" "connectors.kicad_sch"
-			(at 119.38 62.8146 0)
+			(at 93.98 62.8146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -164,8 +614,12 @@
 		)
 	)
 	(sheet
-		(at 67.31 43.18)
+		(at 120.65 43.18)
 		(size 20.32 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -174,9 +628,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "7c6334e5-4c7d-45e8-95c8-5e99ec478434")
-		(property "Sheetname" "SPE"
-			(at 67.31 42.4684 0)
+		(uuid "bea7aece-7522-41ad-9277-390ba26a8f1c")
+		(property "Sheetname" "Boot Config"
+			(at 120.65 42.4684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -184,8 +638,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "spe.kicad_sch"
-			(at 67.31 62.8146 0)
+		(property "Sheetfile" "bootconfig.kicad_sch"
+			(at 120.65 62.8146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -196,7 +650,7 @@
 		(instances
 			(project "RT1050"
 				(path "/dd9d031d-43a1-4442-b493-27451a14e0d9"
-					(page "8")
+					(page "11")
 				)
 			)
 		)
@@ -204,6 +658,10 @@
 	(sheet
 		(at 40.64 43.18)
 		(size 20.32 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -242,6 +700,10 @@
 	(sheet
 		(at 67.31 15.24)
 		(size 20.32 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -280,6 +742,10 @@
 	(sheet
 		(at 40.64 15.24)
 		(size 20.32 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -316,46 +782,12 @@
 		)
 	)
 	(sheet
-		(at 93.98 43.18)
-		(size 20.32 19.05)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "fc14ecf5-8f75-43c0-a12a-1b84b2e334ca")
-		(property "Sheetname" "HopeRF"
-			(at 93.98 42.4684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "hoperf.kicad_sch"
-			(at 93.98 62.8146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "RT1050"
-				(path "/dd9d031d-43a1-4442-b493-27451a14e0d9"
-					(page "11")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 13.97 15.24)
 		(size 20.32 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -396,4 +828,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
