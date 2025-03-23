@@ -6707,6 +6707,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 204.47) (xy 45.72 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad3a3bc2-ef03-4dc8-90e1-5c13ab419f43")
+	)
+	(wire
+		(pts
 			(xy 238.76 35.56) (xy 250.19 35.56)
 		)
 		(stroke
@@ -7201,26 +7211,6 @@
 			)
 		)
 	)
-	(global_label "PG_3V3"
-		(shape input)
-		(at 45.72 204.47 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "52c6ae5a-92ee-4560-a1a5-3a2f44c6f0ba")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 45.72 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PMIC_ON_REQ"
 		(shape bidirectional)
 		(at 50.8 196.85 180)
@@ -7307,26 +7297,6 @@
 			)
 		)
 	)
-	(global_label "PG_3V3"
-		(shape input)
-		(at 78.74 196.85 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8ea8fa88-a07d-4ef8-b418-846faacfa58c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.74 196.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PMIC_ON_REQ"
 		(shape bidirectional)
 		(at 77.47 127 180)
@@ -7408,6 +7378,72 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 41.91 204.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01b18b01-bd0b-467f-848d-c177e4ac32be")
+		(property "Reference" "#PWR0130"
+			(at 41.91 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 41.91 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 41.91 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "729e7061-6262-41b0-9b4e-8ec3153aa5ed")
+		)
+		(instances
+			(project "RT1050"
+				(path "/dd9d031d-43a1-4442-b493-27451a14e0d9/ef9a9590-bc2d-4a19-b722-cc119a748157"
+					(reference "#PWR0130")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -10624,7 +10660,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 48.26 204.47 0)
 			(effects
 				(font
@@ -12651,7 +12687,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 85.09 196.85 0)
 			(effects
 				(font
@@ -13247,7 +13283,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 74.93 194.31 0)
 			(effects
 				(font
@@ -14317,7 +14353,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 30.48 196.85 0)
 			(effects
 				(font
