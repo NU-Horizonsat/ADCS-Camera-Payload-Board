@@ -5920,7 +5920,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT26:SOT26"
+		(property "Footprint" "footprints:SOT95P280X145-6N"
 			(at 148.082 40.64 0)
 			(effects
 				(font

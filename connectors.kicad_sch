@@ -1093,7 +1093,7 @@
 			)
 		)
 	)
-	(global_label "LPI2C4_SCL"
+	(global_label "LPI2C3_SCL"
 		(shape input)
 		(at 40.64 55.88 0)
 		(fields_autoplaced yes)
@@ -1103,31 +1103,9 @@
 			)
 			(justify left)
 		)
-		(uuid "8a6bbb16-0b3b-40fe-ab04-2411ae3a6457")
+		(uuid "a366aa56-6a3f-411a-b8f5-0275c1c88ba1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 54.6923 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LPI2C4_SDA"
-		(shape input)
-		(at 40.64 58.42 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "98ca8712-0f99-4d5f-9e56-608ce38c7694")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.7528 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1172,6 +1150,28 @@
 		(uuid "abbb93be-9165-482d-b70a-71161cb24ef4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 54.269 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LPI2C3_SDA"
+		(shape input)
+		(at 40.64 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c2f98761-4846-43ce-8fce-245d9ab78e76")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.7528 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1271,7 +1271,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 35.56 55.88 0)
 			(effects
 				(font
@@ -1404,7 +1404,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 35.56 80.01 0)
 			(effects
 				(font
@@ -1610,7 +1610,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 35.56 66.04 0)
 			(effects
 				(font
@@ -1678,7 +1678,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 35.56 45.72 0)
 			(effects
 				(font
@@ -1749,7 +1749,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 35.56 31.75 0)
 			(effects
 				(font

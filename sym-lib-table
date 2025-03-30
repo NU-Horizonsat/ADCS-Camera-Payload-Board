@@ -15,4 +15,5 @@
   (lib (name "830105420809")(type "KiCad")(uri "${KIPRJMOD}/Components/830105420809.kicad_sym")(options "")(descr ""))
   (lib (name "TS53YJ203MR10")(type "KiCad")(uri "${KIPRJMOD}/Components/TS53YJ203MR10.kicad_sym")(options "")(descr ""))
   (lib (name "CMS04(TE12L,Q,M)")(type "KiCad")(uri "${KIPRJMOD}/Components/CMS04(TE12L,Q,M).kicad_sym")(options "")(descr ""))
+  (lib (name "ADPL44002AUJZ-1_8-R7")(type "KiCad")(uri "${KIPRJMOD}/Components/ADPL44002AUJZ-1_8-R7.kicad_sym")(options "")(descr ""))
 )
